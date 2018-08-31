@@ -1,3 +1,8 @@
+/**
+ * implements fibonacci iteratively
+ * @author Jake Ols
+ * @version 0.1.0
+ */
 public class FibonacciIterative implements Fibonacci {
 
     // testing implementation
@@ -7,6 +12,10 @@ public class FibonacciIterative implements Fibonacci {
         System.out.println("fibonacci for 20 is " +  newFib.fibonacci(20));
     }
 
+    /**
+     * @param int
+     * @return int
+     */
     public int fibonacci(int n){
         // if gets to end of series
         if(n <= 1) {
